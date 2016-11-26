@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CD4FC35-6CC6-413D-BAC2-8B6EA2746630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54F14C05-8702-4E4E-B832-B4245E38E984}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HighSchoolVideo.WebApp", "src\HighSchoolVideo.WebApp\HighSchoolVideo.WebApp.xproj", "{1A2F8315-99CD-425D-8B13-F2022984D618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A2F8315-99CD-425D-8B13-F2022984D618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2F8315-99CD-425D-8B13-F2022984D618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2F8315-99CD-425D-8B13-F2022984D618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2F8315-99CD-425D-8B13-F2022984D618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A2F8315-99CD-425D-8B13-F2022984D618} = {7CD4FC35-6CC6-413D-BAC2-8B6EA2746630}
+	EndGlobalSection
+EndGlobal
