@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Model;
 
 namespace HighSchoolVideo.WebApp
 {
@@ -35,6 +36,8 @@ namespace HighSchoolVideo.WebApp
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
+
+            //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SqlServerConnection")));
 
             services.AddMvc();
         }
